@@ -88,13 +88,26 @@
     word-break: break-all
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .resume {
         margin: 0 2% 0 2%;
+        width: 95%;
+        height: auto;
+        background-color: #f1f1f2;
     }
 
     .contrainer {
         flex-direction: column;
 
     }
+
+    .content {
+        font-size: 18px;
+    }
+
+    .title {
+
+        font-size: 20px
+    }
+
 }
